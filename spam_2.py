@@ -6,11 +6,11 @@ from discord.ext import commands
 client = discord.Client()
 
 
-token = "TOKEN" # Insert your 0auth token here
-start = "START MESSAGE" # What is the trigger command
-megage = "SPAM MESSAGE" # What message to spam
-amount = 69 # How many times should the message repeated
-delay = 5 # Delay between messages
+token = "" # Insert your 0auth token here
+start = "hi" # What is the trigger command
+megage = "hi" # What message to spam
+amount = 10 # How many times should the message repeated
+delay = 0 # Delay between messages
 
 
 @client.event
